@@ -1,0 +1,147 @@
+{
+  "timestamp": "2026-10-08T04:03:06.700124",
+  "sos_classification": {
+    "accuracy": 1.0,
+    "correct": 16,
+    "total": 16,
+    "results": [
+      {
+        "text": "People trapped on roof, water rising fast, child b",
+        "expected": "CRITICAL",
+        "actual": "CRITICAL",
+        "match": true
+      },
+      {
+        "text": "Family stuck in basement, drowning",
+        "expected": "CRITICAL",
+        "actual": "CRITICAL",
+        "match": true
+      },
+      {
+        "text": "Building collapsed, people buried under debris",
+        "expected": "CRITICAL",
+        "actual": "CRITICAL",
+        "match": true
+      },
+      {
+        "text": "Person unconscious, not breathing, urgent",
+        "expected": "CRITICAL",
+        "actual": "CRITICAL",
+        "match": true
+      },
+      {
+        "text": "House on fire, family trapped inside",
+        "expected": "CRITICAL",
+        "actual": "CRITICAL",
+        "match": true
+      },
+      {
+        "text": "Elderly woman injured, severe bleeding",
+        "expected": "CRITICAL",
+        "actual": "CRITICAL",
+        "match": true
+      },
+      {
+        "text": "We need food and water urgently",
+        "expected": "MODERATE",
+        "actual": "MODERATE",
+        "match": true
+      },
+      {
+        "text": "Family stranded, running low on supplies",
+        "expected": "MODERATE",
+        "actual": "MODERATE",
+        "match": true
+      },
+      {
+        "text": "No medicine available, sick child needs help",
+        "expected": "MODERATE",
+        "actual": "MODERATE",
+        "match": true
+      },
+      {
+        "text": "Shelter needed, house damaged but safe",
+        "expected": "MODERATE",
+        "actual": "MODERATE",
+        "match": true
+      },
+      {
+        "text": "Evacuation help required for elderly",
+        "expected": "MODERATE",
+        "actual": "MODERATE",
+        "match": true
+      },
+      {
+        "text": "Running out of drinking water",
+        "expected": "MODERATE",
+        "actual": "MODERATE",
+        "match": true
+      },
+      {
+        "text": "Minor flooding in street",
+        "expected": "LOW",
+        "actual": "LOW",
+        "match": true
+      },
+      {
+        "text": "Checking in, all fine here",
+        "expected": "LOW",
+        "actual": "LOW",
+        "match": true
+      },
+      {
+        "text": "Power outage in area",
+        "expected": "LOW",
+        "actual": "LOW",
+        "match": true
+      },
+      {
+        "text": "Road blocked by fallen tree",
+        "expected": "LOW",
+        "actual": "LOW",
+        "match": true
+      }
+    ],
+    "confusion": {
+      "CRITICAL": {
+        "CRITICAL": 6,
+        "MODERATE": 0,
+        "LOW": 0
+      },
+      "MODERATE": {
+        "CRITICAL": 0,
+        "MODERATE": 6,
+        "LOW": 0
+      },
+      "LOW": {
+        "CRITICAL": 0,
+        "MODERATE": 0,
+        "LOW": 4
+      }
+    }
+  },
+  "data_integration": {
+    "total": 562,
+    "by_source": {
+      "citizen": 19,
+      "gdacs": 184,
+      "eonet": 39,
+      "usgs": 319,
+      "admin": 1
+    },
+    "by_severity": {
+      "CRITICAL": 8,
+      "LOW": 293,
+      "MODERATE": 258,
+      "HIGH": 3
+    },
+    "by_type": {
+      "flood": 38,
+      "cyclone": 11,
+      "wildfire": 158,
+      "storm": 11,
+      "earthquake": 322,
+      "other": 22
+    }
+  }
+}
