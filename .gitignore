@@ -20,3 +20,8 @@ dist/
 *.sqlite3
 *.db-wal
 *.db-shm
+
+# Local training data and generated model artifacts
+backend/train.csv
+backend/*.joblib
+backend/disasterwatch_validation_metrics.csv
